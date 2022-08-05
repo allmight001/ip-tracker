@@ -1,0 +1,99 @@
+/* html {
+  width: 1440px;
+} */
+body {
+  font-family: 'Rubik', sans-serif;
+  position: relative;
+  /* background-color: black; */
+}
+.address-input {
+  position: relative;
+}
+
+.address-input img {
+  width: 100%;
+}
+
+.data {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.data h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.data input {
+  width: 425px;
+  height: 40px;
+  outline: none;
+  border-top-left-radius: 3% 27%;
+  border-bottom-left-radius: 3% 27%;
+  border: 0;
+}
+
+button {
+  width: 40px;
+  height: 41px;
+  background-color: rgba(50, 50, 50, 0.9);
+  position: relative;
+  right: 5px;
+  border: 0;
+  border-top-right-radius: 30% 30%;
+  border-bottom-right-radius: 30% 30%;
+}
+
+i {
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 1150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 175px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 1%/8%;
+  z-index: 1;
+}
+
+
+.grid-container p, h4 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 245px;
+}
+
+.bordr {
+  width: 1px;
+  height: 100px;
+  background-color: grey;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+}
+
+.border1 {
+  left: 435px;
+}
+.border2 {
+  left: 722px;
+}
+.border3 {
+  left: 1010px;
+}
+
+#mapid {
+  height: 455px;
+  z-index: 0;
+}
